@@ -1,0 +1,332 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans'; 
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.fullpage{
+    width:100%;
+    margin: 0 auto;
+} 
+
+ul{
+    list-style: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+    align-items: center;
+    background-color: #B68C62; 
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    box-sizing: border-box;
+    z-index: 1000;
+    
+}
+
+.logo_and_name{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-image{
+    padding: 0 25px;
+}
+
+.name_bakery{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.075px;
+    color: #FFFFFF;
+}
+
+nav{
+    max-width:675px;
+    width:80%;
+}
+
+nav>ul.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+ul.menu li a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.075px;
+    color: #FFFFFF;
+}
+
+#hero-section{
+    background-image: url(background.png);
+    background-size:cover;
+    height: 750px;
+    box-sizing: border-box;
+}
+
+#hero-banner{
+    box-sizing: border-box;
+    position: absolute;
+    left: 33.68%;
+    right: 31.6%;
+    top: 26.12%;
+    bottom: 26.12%;
+    background: rgba(255, 255, 255, 0.65);
+    border: 1px solid #000000;
+}
+
+.description{
+    box-sizing: border-box;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 5%;
+    bottom: 5%;
+    border: 2px solid #6E3320;
+}
+
+.description img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.075px;
+    color: #000000;
+    text-align: center;
+
+}
+
+.description p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.075px;
+    color: #000000;
+    text-align: center;
+
+}
+
+.row{
+    display: flex;
+}
+
+#describtion-section{
+    background-color: #EDECEC;
+    padding: 75px 75px 90px 75px;
+    box-sizing: border-box;
+}
+
+#describtion-section h2{
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FF9801;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+#describtion-section h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+#describtion-section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 150px;
+}
+
+.button-orange{
+    display: block;
+    background: #FF9801;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 190px;
+    max-height: 65px;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-section{
+    background-color: #EDECEC;
+    padding: 40px 100px 40px 100px;
+    box-sizing: border-box;
+}
+
+#about-section h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FF9801;
+    margin-bottom: 40px;
+}
+
+#about-section h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+#about-section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    max-width: 500px;
+}
+
+#about-section img{
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+}
+
+#product-section{
+    background-color: #EDECEC;
+    padding: 80px 100px 50px 100px;
+    box-sizing: border-box;
+}
+
+#product-section h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FF9801;
+    margin-bottom: 40px;
+}
+
+#product-section h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.product{
+    background: #FFFFFF;
+    box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.08);
+    border-radius: 12px;
+    margin-bottom: 60px;
+    max-width: 360px;
+}
+
+.part_of_products{
+    justify-content: space-between;
+}
+
+#contact-section{
+    padding: 80px 250px 75px 100px;
+    box-sizing: border-box;
+
+}
+
+#contact-section p {
+    max-width: 180px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+
+}
+
+#contact-section .row{
+    justify-content: space-between;
+}
+
+#contact section h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.075px;
+    color: #1A253B;
+}
+
+#contact section h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.075px;
+    color: #000000;
+}
+
+#name{
+    margin-left: 15px;
+}
+.mail img{
+    margin-right: 10px;
+}
+.mail h3{
+    margin-top: 10px;
+}
